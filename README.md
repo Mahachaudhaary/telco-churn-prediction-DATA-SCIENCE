@@ -12,16 +12,17 @@ The system processes raw customer data, analyzes patterns, and generates a list 
 The objective of this project is to develop an end-to-end churn prediction pipeline. This includes data preprocessing, exploratory data analysis, model building, evaluation, and generating actionable outputs.
 
 ---
-
 ##  Dataset
-The dataset used is the Telco Customer Churn dataset, which contains information about:
-- Customer demographics  
-- Account details  
-- Services subscribed  
-- Billing information  
 
-The target variable indicates whether a customer has churned or not.
+The dataset used in this project is the **Telco Customer Churn dataset**, which contains customer-level information from a telecommunications company.
 
+It includes details such as customer demographics, account information, services subscribed, and billing data. These features are used to analyze customer behavior and predict churn.
+
+The dataset consists of **7,043 entries** and **21 columns**, where each row represents a unique customer record.
+
+The target variable is **`Churn`**, which indicates whether a customer has left the service (Yes) or continues to stay (No).
+
+🔗 Dataset Source: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 ---
 
 ##  Methodology
@@ -84,5 +85,12 @@ Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/your-username/telco-churn-prediction.git
+
+##  Project Structure
+Telco_Churn_Analysis.ipynb
+at_risk_customers.csv
+requirements.txt
+README.md
+
 cd telco-churn-prediction
 pip install -r requirements.txt
